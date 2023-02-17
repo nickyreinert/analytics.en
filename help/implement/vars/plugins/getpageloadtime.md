@@ -54,7 +54,7 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ## Use the plug-in
 
-The `getPercentPageViewed` function uses the following arguments:
+The `getPageLoadTime` function uses the following arguments:
 
 * **`pv`** (optional, string):  The dimension to correlate the page load time with.  This value should be equal to a value that identifies the page itself. When not set, this argument defaults to the Adobe AppMeasurement pageName variable (i.e. s.pageName) or the URL when s.pageName is not set 
 
